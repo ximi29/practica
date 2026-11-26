@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi primera página web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Práctica GitHub Pages</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .contenedor{
+            background: rgba(255,255,255,0.15);
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 8px 20px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        h1{
+            font-size:3em;
+            margin-bottom:10px;
+        }
+
+        p{
+            font-size:1.2em;
+            margin-bottom:20px;
+        }
+
+        .boton{
+            display:inline-block;
+            padding:12px 25px;
+            background:white;
+            color:#4f46e5;
+            text-decoration:none;
+            border-radius:30px;
+            font-weight:bold;
+        }
+
+        .boton:hover{
+            background:#e5e7eb;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola, soy Ximena</h1>
-    <p>Esta es mi práctica de GitHub Pages.</p>
+
+    <div class="contenedor">
+        <h1>👋 Hola, soy Ximena</h1>
+
+        <p>
+            Bienvenido a mi primera página web publicada con GitHub Pages.
+        </p>
+
+        <p>
+            Esta práctica demuestra cómo publicar un sitio web gratuito en Internet.
+        </p>
+
+        <a href="https://github.com/ximi29" class="boton">
+            Ver mi GitHub
+        </a>
+    </div>
+
 </body>
 </html>
